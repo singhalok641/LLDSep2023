@@ -21,7 +21,7 @@ public class Client {
         // A a = new B() or A a = new C();
         A a = getObject();
 
-        A.companyName
+//        A.companyName
 
         C c = new C();
         c.companyName = "Google";
