@@ -1,4 +1,4 @@
-package Generics;
+package generics;
 
 public class Pair {
     private Object first;
