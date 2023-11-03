@@ -13,6 +13,7 @@ public class Client {
 
         MergeSorter mergeSorter = new MergeSorter(list, executorService);
 
+
         Future<List<Integer>> sortedListFuture = executorService.submit(mergeSorter);
 
         List<Integer> sortedList = sortedListFuture.get();

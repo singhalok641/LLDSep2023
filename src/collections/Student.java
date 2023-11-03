@@ -13,6 +13,22 @@ public class Student implements Comparable<Student>{
         this.psp = psp;
     }
 
+    public int getId() {
+        return id;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public double getPsp() {
+        return psp;
+    }
+
     @Override
     public int compareTo(Student other) {
         if(this.psp == other.psp){
